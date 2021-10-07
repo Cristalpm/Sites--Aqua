@@ -1,0 +1,245 @@
+
+            /*Рабочяя обл*/
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+
+    font-size: 30px; 
+    line-height: 1.6;
+    color: #efad00 ;
+
+} 
+
+*,
+*::before
+*:after 
+{
+    box-sizing: border-box;
+
+}
+
+
+
+            /*Фон*/
+.container {
+
+    width: 100%;
+    max-width: 30px;
+    margin: 0 auto;
+
+}
+
+.intro {
+    width: 100%;
+    height: 96.6vh;
+        background: url("../Images/Aqua.jpg")
+        no-repeat;
+        -webkit-background-size: cover;
+       
+        background-size: cover;
+}
+
+.intro__title {
+    
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+   
+
+}
+
+
+.header {
+        width: 100%;
+                padding-top: 600px;
+               
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:26px;
+        z-index: 1000;
+
+}
+
+.header___inner {
+    display: flex;
+    justify-content: space-between ;
+
+
+
+}
+            /*Редактирование логотипа*/
+.header___logo {
+
+    font-size: 10000px;
+    font-weight: 1000;
+    color: #efad00;
+
+
+}
+        /*Класс кнопки*/
+.nav {
+     font-size: 40px;
+     text-transform: uppercase;
+
+
+
+}
+                /*Кнопка*/
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+        padding: 8px 30px;
+
+    border: 3px solid #efad00;
+
+        position: relative;
+        left: 400px;
+        top: -100px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    color: #efad00;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: color .2s linear;
+
+
+
+
+    
+}
+                /*1 Кнопка*/
+
+.nav__link_1 {
+    display: inline-block;
+    vertical-align: top;
+        padding: 8px 30px;
+
+    border: 3px solid #efad00;
+
+        position: relative;
+        left: 750px;
+        top: 200px;
+
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #efad00;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+                        /*2 Кнопка*/
+.nav__link_2 {
+    display: inline-block;
+    vertical-align: top;
+        padding: 8px 30px;
+
+    border: 3px solid #ff0000;
+
+        position: relative;
+        left: 550px;
+        top: 136px;
+
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff0000;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+                /*3 Кнопка*/
+.nav__link_3 {
+    display: inline-block;
+    vertical-align: top;
+        padding: 8px 30px;
+
+    border: 3px solid #333;
+
+        position: relative;
+        left: 360px;
+        top: 72px;
+
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+                /*Анимация кнопок*/
+.nav__link:hover {
+    background-color: #efad00;
+    color: #fff ;
+
+}
+
+.nav__link_1:hover {
+    background-color: #efad00;
+    color: #fff ;
+
+}
+
+
+
+.nav__link_2:hover {
+    background-color: #ff0000;
+    color: #fff ;
+
+}
+
+.nav__link_3:hover {
+    background-color: #333;
+    color: #fff ;
+
+}
+
+
+                /*Текст*/
+.btn {
+    position: absolute;
+    left: 1200px;
+    top: 300px;
+    
+    font-size: 40px;
+    font-weight: 700;
+    color: #efad00;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+.btn:hover {
+
+    background-color: #efad00;
+    color: #fff;
+
+}
+
+
+
+.slider {
+
+    position: absolute;
+    left: 1200px;
+    top: 600px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
